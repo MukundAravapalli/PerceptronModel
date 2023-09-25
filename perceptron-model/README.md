@@ -18,7 +18,8 @@ The bias serves as a threshold that the sum of the input products must hurdle ov
 
 Once all the inputs and the bias term have been added together, the sum gets passed onto the **Activation Function**. There are many different types of Activation Functions used in different scenarios, but for our Perceptron Model, we will use the popular **Sigmoid Function** shown below. 
 
-![Sigmoid_Function](/public/diagrams/SigmoidFunc.png)
+![Sigmoid_Function](https://github.com/MukundAravapalli/PerceptronModel/assets/105079738/b7cb4974-1438-44c4-be32-35837d626aba)
+
 
 The Sigmoid Function is a differentiable function that stretches between 0 and 1. The graph follows the equation shown above **1/(1+e<sup>-x</sup>)** where x is the result of our **Net Input Function**. Therefore when we plug in the result of our Net Input Function for x, we get a value between 0 and 1. This result can either be passed on as an input to another perceptron, or it can serve as our network’s output. If the value is close 0 then it indicates a False value, and if the value is close to 1, it indicates True. We can use this principle to model logic operations such as AND, OR, NAND, XOR, etc using Perceptrons. 
 
@@ -86,11 +87,12 @@ for i in range(0, num_iterations):
 
 Suppose we start with the values on the left part of the picture below. You can see on the right hand terminal the output values that we strt out with. We have a **desired value** of **0.798**.
 
-![Starting_Output](/public/diagrams/StartingOutput.png)
+![Starting_Output](https://github.com/MukundAravapalli/PerceptronModel/assets/105079738/663fedbc-7246-441e-9537-dc06922e62d2)
+https://github.com/MukundAravapalli/PerceptronModel/assets/105079738/663fedbc-7246-441e-9537-dc06922e62d2
 
 You can see, after 100 iterations of adjusting our weights to the Activity Function, we have converged on the desired value.
 
-![Ending_Output](/public/diagrams/EndingOutput.png)
+![Ending_Output](https://github.com/MukundAravapalli/PerceptronModel/assets/105079738/9c8edbae-3640-48c4-b274-ce07578b6014)
 
 <br>
 
