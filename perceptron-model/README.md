@@ -10,7 +10,7 @@
 
 ## What is a Perceptron?
 ![Perceptron_Diagram](https://github.com/MukundAravapalli/PerceptronModel/assets/105079738/ca495750-afb4-4263-869e-e9495621e30e)
-<img width="1434" alt="Perceptron_Diagram" src="https://github.com/MukundAravapalli/PerceptronModel/assets/105079738/ca495750-afb4-4263-869e-e9495621e30e">
+
 
 A **Perceptron** is the smallest unit of a Neural Network. It is an abstract element that takes in a set of pairs of **weights** and **inputs**. The perceptron multiples each input value, *x*,  with its corresponding weight, *w*, which results in a product. These products are all passed into an **Activity Function** where they are added together along with a term called the **bias**, *θ*. Note that the Activity Function we just described is labeled as the **Net Input Function** in the diagram above. 
 
