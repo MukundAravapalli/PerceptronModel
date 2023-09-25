@@ -10,6 +10,8 @@
 
 ## What is a Perceptron?
 ![Perceptron_Diagram](/public/diagrams/Perceptron_Diagram.png)
+<img width="1434" alt="Perceptron_Diagram" src="https://github.com/MukundAravapalli/PerceptronModel/assets/105079738/ca495750-afb4-4263-869e-e9495621e30e">
+
 A **Perceptron** is the smallest unit of a Neural Network. It is an abstract element that takes in a set of pairs of **weights** and **inputs**. The perceptron multiples each input value, *x*,  with its corresponding weight, *w*, which results in a product. These products are all passed into an **Activity Function** where they are added together along with a term called the **bias**, *θ*. Note that the Activity Function we just described is labeled as the **Net Input Function** in the diagram above. 
 
 The bias serves as a threshold that the sum of the input products must hurdle over in order to activate the perceptron. In other words, if the sum of the inputs is 1.7 and the bias is -2, the resulting sum would be a negative value. If a threshold function has a cutoff point at 0, then we can conclude that this perceptron did not get activated. This function of the bias becomes very useful in training multilayered neural networks where the correct answer is highly dependent on which perceptrons are activated and which are not. The bias ensures that only useful perceptrons are activated in a multilayer network.
